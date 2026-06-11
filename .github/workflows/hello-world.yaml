@@ -9,11 +9,15 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/chweckout@v3
+        - name: Checkout code
+          uses: actions/chweckout@v3
 
-       - name: Print Hello
-        run: echo "Hello, GitHub Actions!"
+        - name: Print Hello
+          run: echo "Hello, GitHub Actions!"
+           
+      
+
+      
         
         
       
