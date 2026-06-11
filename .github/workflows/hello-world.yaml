@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Checkout code
-          uses: actions/chweckout@v3
+          uses: actions/checkout@v3
 
         - name: Print Hello
           run: echo "Hello, GitHub Actions!"
